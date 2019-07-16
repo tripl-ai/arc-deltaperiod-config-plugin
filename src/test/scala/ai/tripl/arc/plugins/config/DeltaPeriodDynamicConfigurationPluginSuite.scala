@@ -2,7 +2,7 @@ package ai.tripl.arc.plugins
 
 import ai.tripl.arc.ARC
 import ai.tripl.arc.api.API._
-import ai.tripl.arc.util.ConfigUtils
+import ai.tripl.arc.config.ArcPipeline
 import ai.tripl.arc.config.Error._
 import ai.tripl.arc.util.TestUtils
 
@@ -69,7 +69,7 @@ class DeltaPeriodDynamicConfigurationPluginSuite extends FunSuite with BeforeAnd
       ]
     }"""
     
-    val pipelineEither = ConfigUtils.parseConfig(Left(conf), arcContext)
+    val pipelineEither = ArcPipeline.parseConfig(Left(conf), arcContext)
 
     // assert graph created
     pipelineEither match {
