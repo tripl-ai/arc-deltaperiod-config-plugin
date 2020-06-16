@@ -8,6 +8,8 @@
 
 - update to Arc 2.10.0
 
+**NOTE** This is the last release supporting `Scala 2.11` given the release of `Spark 3.0` which only supports `Scala 2.12`.
+
 ## 1.1.0
 
 - update to Spark 2.4.5
