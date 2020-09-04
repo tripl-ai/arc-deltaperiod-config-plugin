@@ -8,15 +8,15 @@ object Dependencies {
   val scalaTest = "org.scalatest" %% "scalatest" % "3.0.7" % "test,it"
 
   // arc
-  val arc = "ai.tripl" %% "arc" % "3.0.0" % "provided"
-  val typesafeConfig = "com.typesafe" % "config" % "1.3.1" intransitive()  
+  val arc = "ai.tripl" %% "arc" % "3.2.0" % "provided"
+  val typesafeConfig = "com.typesafe" % "config" % "1.3.1" intransitive()
 
   val sparkSql = "org.apache.spark" %% "spark-sql" % sparkVersion % "provided"
 
   // Project
   val etlDeps = Seq(
     scalaTest,
-    
+
     arc,
     typesafeConfig,
 
