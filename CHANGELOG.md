@@ -2,6 +2,10 @@
 
 ## 1.6.0
 
+- update to Arc 3.13.2
+
+## 1.6.0
+
 - update to Arc 3.7.0
 
 
